@@ -1,0 +1,23 @@
+{
+"name": "manaofc-minibot-pair",
+    "version": "0.0.1",
+    "description": "A multi functional whatsapp bot Web paircode.",
+    "main": "index.js",
+    "scripts": {
+      "start": "pm2 start index.js --deep-monitoring --attach --name manaofc",
+      "stop": "pm2 stop manaofc",
+     "restart": "pm2 restart manaofc"
+    },
+  "dependencies": {
+    "manaofc-baileys": "github:manaofc/manaofc-baileys",
+    "qrcode": "latest",
+    "awesome-phonenumber": "latest",
+    "pino": "latest",
+    "phone" : "latest",
+    "body-parser": "latest",
+    "express": "latest",
+    "path": "latest",
+    "megajs": "latest",
+    "pm2": "latest"
+   }
+}
